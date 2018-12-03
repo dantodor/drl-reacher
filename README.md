@@ -55,6 +55,8 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
+	In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector must be a number between -1 and 1. The environment is considered solved when the agent obtains an average score above 30 points over 100 consecutive episodes. I used the version with 20 agents. 
+
 2. Place the folder where you cloned the GitHub repository, and unzip (or decompress) the file. 
 
 ### Instructions
